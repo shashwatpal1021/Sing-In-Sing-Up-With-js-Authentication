@@ -307,9 +307,10 @@ section .title::after{
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 50px 25px;
+    padding: 30px 35px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-bottom:20px;
 }
 .services .serv-content .card:hover{
     background: crimson;
@@ -603,6 +604,16 @@ footer span a:hover{
     .max-width{
         padding: 0 50px;
     }
+    .my-img button{
+        border-radius: 99%;
+        background-image: url(./removebg-preview.png) 80px 80px;
+        width: 480px;
+        height: 450px;
+        border: 10px solid purple;
+        background-color: black;
+        margin-left: 70px;
+        
+     }
 }
 @media (max-width: 947px){
     
@@ -689,6 +700,7 @@ footer span a:hover{
     background-color: black;
      margin-right: 0px;
 }
+
     .max-width{
         padding: 0 23px;
     }
